@@ -1,0 +1,82 @@
+meusProdutos = {
+    '01': {
+        codigo: "0001",
+        nome: "Pedigree Vital Pro Sachê",
+        descricao: "Pedigree Vital Pro Sachê ao Molho - Carne e Cordeiro Adulto, Frango Filhotes",
+        quantidade: "100g",
+        preco: 1.99,
+        marca: "Pedigree",
+        imagem: "img/0001_capa.jpg",
+        imagens: [
+            "img/0001_1.jpg",
+            "img/0001_2.jpg",
+            "img/0001_3.jpg",
+            "img/0001_4.jpg"
+        ]
+    },
+    '02': {
+        codigo: "0002",
+        nome: "Ração Pedigree Junior",
+        descricao: "Ração Pedigree Vital Pro - Raças Médias e Grandes - Junior - 20kg",
+        quantidade: "20kg",
+        preco: 105.90,
+        marca: "Pedigree",
+        imagem: "img/0002_capa.jpg",
+        imagens: [
+            "img/0002_1.jpg",
+            "img/0002_2.jpg"
+        ]
+    },
+    '03': {
+        codigo: "0003",
+        nome: "Ração Quatree Gourmet",
+        descricao: "Ração Quatree Gourmet Premium Adultos - Nutrição Equilibrada - 15kg",
+        quantidade: "15kg",
+        preco: 74.15,
+        marca: "Quatree",
+        imagem: "img/0003_capa.jpg",
+        imagens: [
+            "img/0003_1.jpg",
+            "img/0003_2.jpg"
+        ]
+    },
+    '04': {
+        codigo: "0004",
+        nome: "Frontline Spray",
+        descricao: "Antipulgas Frontline Spray - Cães e Gatos - Leve 500ml Pague 400ml",
+        quantidade: "500ml",
+        preco: 318.49,
+        marca: "Frontline",
+        imagem: "img/0004_capa.jpg",
+        imagens: [
+            "img/0004_1.jpg",
+            "img/0004_2.jpg"
+        ]
+    },
+    '05': {
+        codigo: "0005",
+        nome: "Petisco Keldog Bifinhos",
+        descricao: "Petisco Keldog Bifinhos Criadores - Churassco / Carnes & Cereais - 500g",
+        quantidade: "500g",
+        preco: 19.90,
+        marca: "Kelco",
+        imagem: "img/0005_capa.jpg",
+        imagens: [
+            "img/0005_1.jpg",
+            "img/0005_2.jpg"
+        ]
+    },
+    '06': {
+        codigo: "0006",
+        nome: "Tapete Higiênico",
+        descricao: "Tapete Higiênico Pet Caninos Brancos 60 x 60 cm - 50 Unidades",
+        quantidade: "50un",
+        preco: 79.90,
+        marca: "Caninos Brancos",
+        imagem: "img/0006_capa.jpg",
+        imagens: [
+            "img/0006_1.jpg",
+            "img/0006_2.jpg"
+        ]
+    }
+};

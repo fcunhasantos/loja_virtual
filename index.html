@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br" ng-app="loja">
+    <head>
+        <meta charset="utf-8" />
+        
+        <!-- Angular JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+        
+        <!-- Angular JS Lib (PT-BR) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.2.15/angular-locale_pt-br.js"></script>
+        
+        <!-- Angular JS Route -->
+        <script src="https://code.angularjs.org/1.4.3/angular-route.min.js"></script>
+        
+        <!-- Angular JS Bootstrap UI -->
+        <script src="js/ui-bootstrap-tpls-0.13.1.js"></script>
+        
+        <!-- toArrayFilter -->
+        <script src="js/toArrayFilter.js"></script>
+        
+        <!-- JQuery -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+        
+        <!-- Custom JavaScript -->
+        <script src="js/produtos.js"></script>
+        <script src="js/produtos.json"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        
+        <!-- Custom Stylesheet -->
+        <link rel="stylesheet" href="css/style.css" />
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Cabeçalho das páginas -->
+            <div class="page-header">
+                <h1>Lista de Produtos <small>Cães</small></h1>
+            </div>
+            
+            <!-- Páginas -->
+            <div ng-view></div>
+        </div>
+        
+        
+    </body>
+</html>
