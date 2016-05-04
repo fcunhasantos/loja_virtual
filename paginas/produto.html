@@ -1,0 +1,28 @@
+
+            <div class="row-fluid">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="panel panel-primary" id="detalhe">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{produto.nome}}</h3>
+                        </div>
+                        <div class="panel-body">
+                            <!-- Imagens -->
+                            <carousel interval="myInterval">
+                                <slide ng-repeat="slide in slides" active="slide.active">
+                                    <img ng-src="{{slide}}" style="margin:auto;">
+                                </slide>
+                            </carousel>
+                            <!-- Detalhes -->
+                            <p class="text-info">
+                                {{produto.descricao}} <br>
+                                Marca: {{produto.marca}}<br>
+                                Quantidade: {{produto.quantidade}}<br>
+                                Preço: {{produto.preco | currency}}
+                            </p>
+                            <p>
+                                <a href="#/" class="btn btn-primary pull-right" role="button">Voltar</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
